@@ -20,10 +20,11 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-LINKS = (('Pelican', 'http://getpelican.com/'),
-         ('Python.org', 'http://python.org/'),
-         ('Jinja2', 'http://jinja.pocoo.org/'),
-         ('You can modify those links in your config file', '#'),)
+LINKS = (
+    ('UW Laboratory Medicine', 'https://depts.washington.edu/labweb'),
+    ('UW Medicie Bio', 'http://www.uwmedicine.org/bios/noah-hoffman'),
+    ('borborygmi (blog)', 'https://nhoffman.github.io/borborygmi/'),
+)
 
 # Social widget
 SOCIAL = (('You can add links in your config file', '#'),
@@ -36,6 +37,7 @@ DEFAULT_PAGINATION = False
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
 
-# THEME = "/Users/nhoffman/src/pelican-themes/pelican-blue"
 THEME = "./mytheme"
 
+# defines order of page titles in the header
+PAGE_ORDER_BY = 'page-order'
