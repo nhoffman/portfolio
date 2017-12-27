@@ -5,14 +5,12 @@ The best way to contact me is by email: ngh2@uw.edu
 
 # Mailing address
 
-<ul style="list-style: none; list-style-type: none; padding: 0; margin: 0; line-height: 0.5em;">
-<li>Noah Hoffman</li>
-<li>University of Washington</li>
-<li>Department of Laboratory Medicine</li>
-<li>Box 357110</li>
-<li>1959 NE Pacific Street, NW120</li>
-<li>Seattle, WA 98195-7110</li>
-</ul>
+Noah Hoffman<br>
+University of Washington<br>
+Department of Laboratory Medicine<br>
+Box 357110<br>
+1959 NE Pacific Street, NW120<br>
+Seattle, WA 98195-7110<br>
 
 # Directions to UWMC office
 
