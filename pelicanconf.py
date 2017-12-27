@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = 'Noah Hoffman'
 SITENAME = 'Noah Hoffman, MD, PhD'
-SITEURL = ''
+SITEURL = 'https://faculty.washington.edu/ngh2/home'
 
 PATH = 'content'
 
