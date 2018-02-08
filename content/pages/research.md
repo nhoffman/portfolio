@@ -7,6 +7,12 @@ bioinformaticist. I draw on this broad experience across disciplines
 through collaborations with computational biologists,
 experimentalists, and clinicians.
 
+I am **Head of the Informatics Division** of the Department of
+Laboratory Medicine, which provides me with a broad perspective on
+medical informatics. In this role, I direct the staff responsible for
+maintaining the Laboratory Information System and physical computing
+infrastructure for the department.
+
 My primary area of research is in the development and application of
 bioinformatic tools to perform nucleic acid sequence-based
 identification of microbiota in both basic research and clinical
@@ -18,12 +24,6 @@ in the University of Washington Department of Laboratory Medicine (of
 which I am Associate Director) now routinely identifies bacterial
 isolates using 16S rRNA gene sequencing using software and tools that
 I helped develop.
-
-I am also **Associate Director of the Informatics Division** of the
-Department of Laboratory Medicine, which provides me with a broad
-perspective on medical informatics. In this role, I direct the staff
-responsible for maintaining the Laboratory Information System and
-physical computing infrastructure for the department.
 
 # Selected publications
 
