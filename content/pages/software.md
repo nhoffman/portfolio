@@ -136,7 +136,7 @@ a commercial product in 2016.
 I designed and wrote most of the code for a web application (known as
 the "Pending Log Monitor" or PLM) that displays the status of pending
 orders for lab tests. I described this application in a
-[presentation](../files/hoffman-api2017.pptx) at the 2017 Pathology
+[presentation](../images/hoffman-api2017.pptx) at the 2017 Pathology
 Informatics Summit (annual meeting of the Association for Pathology
 Informatics). Here's the abstract for that presentations:
 
