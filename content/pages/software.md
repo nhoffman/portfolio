@@ -117,6 +117,66 @@ Most of the applications that I write for the clinical laboratory are
 for internal use. There are a few that I have been able to publish
 that may be of general interest.
 
+## Automated Chemistry Quality Control
+
+Right around the time I started my faculty position, I implemented a
+system for QC review of our automated chemistry analyzers, consisting
+of some R scripts that emitted Levy-Jennings charts highlighting out
+of control standards. Here's an example:
+
+<a href="../images/UCDXC_QC20150227_flags.pdf"><img src="../images/UCDXC_QC20150227_flags.png"></img></a>
+
+QC checks were documented in a [roundup](http://roundup-tracker.org/)
+bug tracker. This was the primary mechanism for monitoring and
+documenting quality control for 7 or 8 years, until it was replaced by
+a commercial product in 2016.
+
+## Pending Log Monitor
+
+I designed and wrote most of the code for a web application (known as
+the "Pending Log Monitor" or PLM) that displays the status of pending
+orders for lab tests. I described this application in a
+[presentation](../files/hoffman-api2017.pptx) at the 2017 Pathology
+Informatics Summit (annual meeting of the Association for Pathology
+Informatics). Here's the abstract for that presentations:
+
+> Many laboratory information systems (LIS) do not provide real-time
+notification of new orders, relying instead on batched, asynchronous
+display of information such as printed pending lists. To improve
+situational awareness of pending laboratory orders, we developed a web
+application (the "Pending Log Monitor") that displays data continually
+updated from our LIS on large wall-mounted monitors or PC
+workstations. Users may enter comments associated with individual
+items. A survey was administered to evaluate usage patterns.  The
+application is implemented in Python 2.7 using the Flask web
+microframework, and is hosted on a virtual machine running Ubuntu
+14.04. Data is extracted from the LIS database (Sunquest Information
+Systems, Tucson, AZ) using custom code written in Cache (InterSystems
+Corporation, Cambridge, MA), and is transferred to the application
+server by a batched process using secure shell. User-provided comments
+associated with pending tests are stored in an SQLite database.  The
+application was designed for maintainability, ease of customization,
+stability, and rapid recovery in the result of a component
+failure. Logic for display and formatting of pending tests is
+implemented as Python functions. A simple JSON-format specification
+can accommodate any tabular data. Lists of pending tests defined for a
+given area typically correspond to one or more worksheets defined in
+the LIS.  Customized displays of pending tests have been implemented
+for over 35 combinations of worksheets in multiple lab areas. Pending
+orders for each lab area are filtered, ordered, and color coded based
+on elapsed time since order or receipt, priority, specimen stability,
+or other criteria. Data is transferred from the LIS by a batched
+process every four minutes. This application has replaced the use of
+printed pending lists in many areas. The majority of survey
+respondents described the application as "very important" to lab
+operations, with many lab areas referring to the monitor "constantly."
+Use of comments varies widely between lab areas, but most respondents
+strongly agreed with the statement that comments improve
+communication.  A simple web application implemented at low cost using
+open source technology has provided significant workflow and
+communication improvements throughout the laboratory.
+
+
 ## Opiates
 
 Automated QA for a clinical LC/MS urine opaites assay.
