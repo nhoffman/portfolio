@@ -138,7 +138,7 @@ the "Pending Log Monitor" or PLM) that displays the status of pending
 orders for lab tests. I described this application in a
 [presentation](../images/hoffman-api2017.pptx) at the 2017 Pathology
 Informatics Summit (annual meeting of the Association for Pathology
-Informatics). Here's the abstract for that presentations:
+Informatics). Here's the abstract for that presentation:
 
 > Many laboratory information systems (LIS) do not provide real-time
 notification of new orders, relying instead on batched, asynchronous
