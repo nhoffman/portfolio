@@ -137,6 +137,22 @@ and procedures managed as MoinMoin wiki pages. Go open source!
 
 [![GitHub](../images/gh.svg)](https://github.com/nhoffman/moin-labmanual)
 
+## Infrastructure for role-based user management in the clinical laboratory
+
+Significant (and mainly hidden) administrative costs in any
+organization relate to processes and tools for user management and
+access to electronic resources. Compounding factors include:
+
+- multiple domains
+- users with roles spanning institutions
+- applications with varying technical requirements for implementing single sign-on (SSO)
+- regulated environments with specific policy requirements for user management
+- high user turnover.
+
+We have all of these! Because of the heterogeneity of our environment,
+no existing system or domain could serve as a single source of truth
+for users and their roles.
+
 ## UW Groups API
 
 Python bindings for the UW Groups web services API.
