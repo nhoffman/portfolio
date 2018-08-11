@@ -217,7 +217,14 @@ access to electronic resources. Compounding factors include:
 
 We have all of these! Because of the heterogeneity of our environment,
 no existing system or domain could serve as a single source of truth
-for users and their roles.
+for users and their roles. To provide a single source of truth for our
+department and affiliates, I wrote an internal web application (Flask,
+Postgresql) for user management. Users are associated with attributes
+(role, location, departmental/divisional affiliations, etc) or
+assigned directly to groups (eg for access to a specific
+application). Groups are then synchronized to multiple domains so that
+they can be used as the basis for authorization for a wide variety of
+applications.
 
 ## UW Groups API
 
