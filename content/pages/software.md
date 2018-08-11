@@ -7,6 +7,13 @@ name "[nhoffman](https://github.com/nhoffman)" on GitHub - <img
 src="../images/gh.svg"></img> icons below link to individual
 repositories.
 
+<style>
+li {margin-top: 0em; margin-bottom: 0em;}
+div.toc {margin-bottom: 1em;}
+</style>
+
+[TOC]
+
 # Molecular microbiology and the microbiome
 
 [Taxtastic](https://github.com/fhcrc/taxtastic) and

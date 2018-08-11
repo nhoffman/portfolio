@@ -41,3 +41,16 @@ THEME = "./mytheme"
 
 # defines order of page titles in the header
 PAGE_ORDER_BY = 'page-order'
+
+# see https://python-markdown.github.io/extensions/toc/
+MARKDOWN = {
+  'extension_configs': {
+    'markdown.extensions.toc': {
+        'baselevel': 2,
+    },
+    'markdown.extensions.codehilite': {'css_class': 'highlight'},
+    'markdown.extensions.extra': {},
+    'markdown.extensions.meta': {},
+  },
+  'output_format': 'html5',
+}
