@@ -117,19 +117,12 @@ Most of the applications that I write for the clinical laboratory are
 for internal use. There are a few that I have been able to publish
 that may be of general interest.
 
-## Automated Chemistry Quality Control
+## Laboratory Test Guide
 
-Right around the time I started my faculty position, I implemented a
-system for QC review of our automated chemistry analyzers, consisting
-of some R scripts that emitted Levy-Jennings charts highlighting out
-of control standards. Here's an example:
-
-<a href="../images/UCDXC_QC20150227_flags.pdf"><img src="../images/UCDXC_QC20150227_flags.png"></img></a>
-
-QC checks were documented in a [roundup](http://roundup-tracker.org/)
-bug tracker. This was the primary mechanism for monitoring and
-documenting quality control for 7 or 8 years, until it was replaced by
-a commercial product in 2016.
+I am the primary author of our public [Laboratory Test
+Guide](https://testguide.labmed.uw.edu). This application provides a
+searchable interface for clinical laboratory tests offered by the
+University of Washington Department of Laboratory Medicine.
 
 ## Pending Log Monitor
 
@@ -176,6 +169,19 @@ communication.  A simple web application implemented at low cost using
 open source technology has provided significant workflow and
 communication improvements throughout the laboratory.
 
+## Automated Chemistry Quality Control
+
+Right around the time I started my faculty position, I implemented a
+system for QC review of our automated chemistry analyzers, consisting
+of some R scripts that emitted Levy-Jennings charts highlighting out
+of control standards. Here's an example:
+
+<a href="../images/UCDXC_QC20150227_flags.pdf"><img src="../images/UCDXC_QC20150227_flags.png"></img></a>
+
+QC checks were documented in a [roundup](http://roundup-tracker.org/)
+bug tracker. This was the primary mechanism for monitoring and
+documenting quality control for 7 or 8 years, until it was replaced by
+a commercial product in 2016.
 
 ## Opiates
 
