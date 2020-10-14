@@ -31,11 +31,10 @@ SOCIAL = (('You can add links in your config file', '#'),
           ('Another social link', '#'),)
 SOCIAL = None
 
-
 DEFAULT_PAGINATION = False
 
 # Uncomment following line if you want document-relative URLs when developing
-#RELATIVE_URLS = True
+# RELATIVE_URLS = True
 
 THEME = "./mytheme"
 
@@ -44,13 +43,13 @@ PAGE_ORDER_BY = 'page-order'
 
 # see https://python-markdown.github.io/extensions/toc/
 MARKDOWN = {
-  'extension_configs': {
-    'markdown.extensions.toc': {
-        'baselevel': 2,
+    'extension_configs': {
+        'markdown.extensions.toc': {
+            'baselevel': 2,
+        },
+        'markdown.extensions.codehilite': {'css_class': 'highlight'},
+        'markdown.extensions.extra': {},
+        'markdown.extensions.meta': {},
     },
-    'markdown.extensions.codehilite': {'css_class': 'highlight'},
-    'markdown.extensions.extra': {},
-    'markdown.extensions.meta': {},
-  },
-  'output_format': 'html5',
+    'output_format': 'html5',
 }

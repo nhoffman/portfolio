@@ -4,7 +4,7 @@
 ##
 PY=${PY:-python3}
 PELICAN=${PELICAN:-pelican}
-PELICANOPTS=
+PELICANOPTS="-e RELATIVE_URLS=true"
 
 BASEDIR=$(pwd)
 INPUTDIR=$BASEDIR/content
