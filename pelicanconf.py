@@ -10,7 +10,7 @@ PATH = 'content'
 
 TIMEZONE = 'America/Los_Angeles'
 
-DEFAULT_LANG = 'English'
+DEFAULT_LANG = 'en'
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
@@ -21,8 +21,8 @@ AUTHOR_FEED_RSS = None
 
 # Blogroll
 LINKS = (
-    ('UW Laboratory Medicine', 'https://depts.washington.edu/labweb'),
-    ('UW Medicie Bio', 'http://www.uwmedicine.org/bios/noah-hoffman'),
+    ('UW Laboratory Medicine and Pathology Bio', 'https://dlmp.uw.edu/faculty/hoffman'),
+    ('UW Medicine Bio', 'http://www.uwmedicine.org/bios/noah-hoffman'),
     ('borborygmi (blog)', 'https://nhoffman.github.io/borborygmi/'),
 )
 
@@ -34,7 +34,7 @@ SOCIAL = None
 DEFAULT_PAGINATION = False
 
 # Uncomment following line if you want document-relative URLs when developing
-# RELATIVE_URLS = True
+RELATIVE_URLS = True
 
 THEME = "./mytheme"
 

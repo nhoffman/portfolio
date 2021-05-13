@@ -7,7 +7,7 @@ The best way to contact me is by email: ngh2@uw.edu
 
 Noah Hoffman<br>
 University of Washington<br>
-Department of Laboratory Medicine<br>
+Department of Laboratory Medicine and Pathology<br>
 Box 357110<br>
 1959 NE Pacific Street, NW120<br>
 Seattle, WA 98195-7110<br>

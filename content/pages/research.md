@@ -1,79 +1,78 @@
 Title: Academic and Clinical Activities
 page-order: 01
 
-My background is multidisciplinary: I have trained and practiced as a
-basic science researcher, a physician, a clinical laboratorian, and
-bioinformaticist. I draw on this broad experience across disciplines
-through collaborations with computational biologists,
-experimentalists, and clinicians.
+Noah G. Hoffman, MD, PhD is an Associate Professor and Head of the
+Informatics Division of the Department of Laboratory Medicine and
+Pathology (DLMP) at the University of Washington in Seattle, WA. In
+this role he directs the staff responsible for maintaining the
+Laboratory Information System and physical computing infrastructure
+for the department. Dr. Hoffman also plays a direct role in the custom
+development of software and infrastructure supporting many facets of
+laboratory operations, data management, and clinical assays.
 
-I am **Head of the Informatics Division** of the Department of
-Laboratory Medicine, which provides me with a broad perspective on
-medical informatics. In this role, I direct the staff responsible for
-maintaining the Laboratory Information System and physical computing
-infrastructure for the department.
+Dr. Hoffman's primary research interest is in the development and
+application of bioinformatic tools to perform nucleic acid
+sequence-based identification of microbiota in both basic research and
+clinical settings. He is also co-director of the DLMP NGS Analytics
+Laboratory: in this role, he supervises and advises on the development
+of bioinformatics pipelines and scientific computing infrastructure
+supporting clinical assays.
 
-My primary area of research is in the development and application of
-bioinformatic tools to perform nucleic acid sequence-based
-identification of microbiota in both basic research and clinical
-settings. I am **co-director of the UW Laboratory Medicine NGS Analytics
-Laboratory**: in this role, I supervise the development of
-bioinformatics pipelines and scientific computing infrastructure
-supporting our clinical assays. The Molecular Microbiology laboratory
-in the University of Washington Department of Laboratory Medicine (of
-which I am Associate Director) now routinely identifies bacterial
-isolates using 16S rRNA gene sequencing using software and tools that
-I helped develop.
+Dr. Hoffman completed his MD and PhD in Microbiology and Immunology at
+the University of North Carolina, Chapel Hill in 2005, and completed
+residency training in Clinical Pathology at the University of
+Washington in 2008, where he has since remained in faculty roles.
 
-# Selected publications
+# Publications
 
-<ol>
-
-<li>Mitchell CM, Srinivasan S, Plantinga A, Wu MC, Reed SD, Guthrie KA, LaCroix AZ, Fiedler T, Munch M, Liu C, <strong style="text-decoration: underline">Hoffman NG</strong>, Blair IA, Newton K, Freeman EW, Joffe H, Cohen L, and Fredricks DN. <strong>Associations between improvement in genitourinary symptoms of menopause and changes in the vaginal ecosystem.</strong> <em>Menopause</em> 2017. <a href="http://www.ncbi.nlm.nih.gov/pubmed/29206774">29206774</a></li>
-
-<li>Mitchell CM, Srinivasan S, Zhan X, Wu MC, Reed SD, Guthrie KA, LaCroix AZ, Fiedler T, Munch M, Liu C, <strong style="text-decoration: underline">Hoffman NG</strong>, Blair IA, Newton K, Freeman EW, Joffe H, Cohen L, and Fredricks DN. <strong>Vaginal microbiota and genitourinary menopausal symptoms: a cross-sectional analysis.</strong> <em>Menopause</em> 2017, 24:1160-1166. <a href="http://www.ncbi.nlm.nih.gov/pubmed/28640154">28640154</a></li>
-
-<li>Golob JL, Margolis E, <strong style="text-decoration: underline">Hoffman NG</strong>, and Fredricks DN. <strong>Evaluating the accuracy of amplicon-based microbiome computational pipelines on simulated human gut microbial communities.</strong> <em>BMC Bioinformatics</em> 2017, 18:283. <a href="http://www.ncbi.nlm.nih.gov/pubmed/28558684">28558684</a></li>
-
-<li>Cummings LA, Kurosawa K, Hoogestraat DR, SenGupta DJ, Candra F, Doyle M, Thielges S, Land TA, Rosenthal CA, <strong style="text-decoration: underline">Hoffman NG</strong>, Salipante SJ, and Cookson BT. <strong>Clinical Next Generation Sequencing Outperforms Standard Microbiological Culture for Characterizing Polymicrobial Samples.</strong> <em>Clin Chem</em> 2016, 62:1465-1473. <a href="http://www.ncbi.nlm.nih.gov/pubmed/27624135">27624135</a></li>
-
-<li>Srinivasan S, Munch MM, Sizova MV, Fiedler TL, Kohler CM, <strong style="text-decoration: underline">Hoffman NG</strong>, Liu C, Agnew KJ, Marrazzo JM, Epstein SS, and Fredricks DN. <strong>More Easily Cultivated Than Identified: Classical Isolation With Molecular Identification of Vaginal Bacteria.</strong> <em>J Infect Dis</em> 2016, 214 Suppl 1:S21-8. <a href="http://www.ncbi.nlm.nih.gov/pubmed/27449870">27449870</a></li>
-
-<li>Salipante SJ, Kawashima T, Rosenthal C, Hoogestraat DR, Cummings LA, Sengupta DJ, Harkins TT, Cookson BT, and <strong style="text-decoration: underline">Hoffman NG</strong>. <strong>Erratum for Salipante et al., Performance Comparison of Illumina and Ion Torrent Next-Generation Sequencing Platforms for 16S rRNA-Based Bacterial Community Profiling.</strong> <em>Appl Environ Microbiol</em> 2016, 82:4453. <a href="http://www.ncbi.nlm.nih.gov/pubmed/27364849">27364849</a></li>
-
-<li>Mathias PC, Turner EH, Scroggins SM, Salipante SJ, <strong style="text-decoration: underline">Hoffman NG</strong>, Pritchard CC, and Shirts BH. <strong>Applying Ancestry and Sex Computation as a Quality Control Tool in Targeted Next-Generation Sequencing.</strong> <em>Am J Clin Pathol</em> 2016, 145:308-15. <a href="http://www.ncbi.nlm.nih.gov/pubmed/27124912">27124912</a></li>
-
-<li>White AA, McKinney CM, <strong style="text-decoration: underline">Hoffman NG</strong>, and Sutton PR. <strong>Optimizing vitamin D naming conventions in computerized order entry to support high-value care.</strong> <em>J Am Med Inform Assoc</em> 2017, 24:172-175. <a href="http://www.ncbi.nlm.nih.gov/pubmed/27107453">27107453</a></li>
-
-<li>Srinivasan S, Morgan MT, Fiedler TL, Djukovic D, <strong style="text-decoration: underline">Hoffman NG</strong>, Raftery D, Marrazzo JM, and Fredricks DN. <strong>Metabolic signatures of bacterial vaginosis.</strong> <em>MBio</em> 2015, 6:. <a href="http://www.ncbi.nlm.nih.gov/pubmed/25873373">25873373</a></li>
-
-<li>Salipante SJ, Kawashima T, Rosenthal C, Hoogestraat DR, Cummings LA, Sengupta DJ, Harkins TT, Cookson BT, and <strong style="text-decoration: underline">Hoffman NG</strong>. <strong>Performance comparison of Illumina and ion torrent next-generation sequencing platforms for 16S rRNA-based bacterial community profiling.</strong> <em>Appl Environ Microbiol</em> 2014, 80:7583-91. <a href="http://www.ncbi.nlm.nih.gov/pubmed/25261520">25261520</a></li>
-
-<li>Salipante SJ, Hoogestraat DR, Abbott AN, SenGupta DJ, Cummings LA, Butler-Wu SM, Stephens K, Cookson BT, and <strong style="text-decoration: underline">Hoffman NG</strong>. <strong>Coinfection of Fusobacterium nucleatum and Actinomyces israelii in mastoiditis diagnosed by next-generation DNA sequencing.</strong> <em>J Clin Microbiol</em> 2014, 52:1789-92. <a href="http://www.ncbi.nlm.nih.gov/pubmed/24574281">24574281</a></li>
-
-<li>Srinivasan S, Morgan MT, Liu C, Matsen FA, <strong style="text-decoration: underline">Hoffman NG</strong>, Fiedler TL, Agnew KJ, Marrazzo JM, and Fredricks DN. <strong>More than meets the eye: associations of vaginal bacteria with gram stain morphotypes using molecular phylogenetic analysis.</strong> <em>PLoS One</em> 2013, 8:e78633. <a href="http://www.ncbi.nlm.nih.gov/pubmed/24302980">24302980</a></li>
-
-<li>Salipante SJ, Sengupta DJ, Hoogestraat DR, Cummings LA, Bryant BH, Natividad C, Thielges S, Monsaas PW, Chau M, Barbee LA, Rosenthal C, Cookson BT, and <strong style="text-decoration: underline">Hoffman NG</strong>. <strong>Molecular diagnosis of Actinomadura madurae infection by 16S rRNA deep sequencing.</strong> <em>J Clin Microbiol</em> 2013, 51:4262-5. <a href="http://www.ncbi.nlm.nih.gov/pubmed/24108607">24108607</a></li>
-
-<li>Salipante SJ, Sengupta DJ, Rosenthal C, Costa G, Spangler J, Sims EH, Jacobs MA, Miller SI, Hoogestraat DR, Cookson BT, McCoy C, Matsen FA, Shendure J, Lee CC, Harkins TT, and <strong style="text-decoration: underline">Hoffman NG</strong>. <strong>Rapid 16S rRNA next-generation sequencing of polymicrobial clinical samples for diagnosis of complex bacterial infections.</strong> <em>PLoS One</em> 2013, 8:e65226. <a href="http://www.ncbi.nlm.nih.gov/pubmed/23734239">23734239</a></li>
-
-<li>McCoy CO, Gallagher A, <strong style="text-decoration: underline">Hoffman NG</strong>, and Matsen FA. <strong>Nestly--a framework for running software with nested parameter choices and aggregating results.</strong> <em>Bioinformatics</em> 2013, 29:387-8. <a href="http://www.ncbi.nlm.nih.gov/pubmed/23220574">23220574</a></li>
-
-<li>Ramaiah VK, Sharma D, Ma L, Prathep S, <strong style="text-decoration: underline">Hoffman NG</strong>, and Vavilala MS. <strong>Admission oxygenation and ventilation parameters associated with discharge survival in severe pediatric traumatic brain injury.</strong> <em>Childs Nerv Syst</em> 2013, 29:629-34. <a href="http://www.ncbi.nlm.nih.gov/pubmed/23207977">23207977</a></li>
-
-<li>Dickerson JA, Schmeling M, Hoofnagle AN, and <strong style="text-decoration: underline">Hoffman NG</strong>. <strong>Design and implementation of software for automated quality control and data analysis for a complex LC/MS/MS assay for urine opiates and metabolites.</strong> <em>Clin Chim Acta</em> 2013, 415:290-4. <a href="http://www.ncbi.nlm.nih.gov/pubmed/23159299">23159299</a></li>
-
-<li>Srinivasan S, <strong style="text-decoration: underline">Hoffman NG</strong>, Morgan MT, Matsen FA, Fiedler TL, Hall RW, Ross FJ, McCoy CO, Bumgarner R, Marrazzo JM, and Fredricks DN. <strong>Bacterial communities in women with bacterial vaginosis: high resolution phylogenetic analyses reveal relationships of microbiota to clinical criteria.</strong> <em>PLoS One</em> 2012, 7:e37818. <a href="http://www.ncbi.nlm.nih.gov/pubmed/22719852">22719852</a></li>
-
-<li>Matsen FA, <strong style="text-decoration: underline">Hoffman NG</strong>, Gallagher A, and Stamatakis A. <strong>A format for phylogenetic placements.</strong> <em>PLoS One</em> 2012, 7:e31009. <a href="http://www.ncbi.nlm.nih.gov/pubmed/22383988">22383988</a></li>
-
-<li>Greisman HA, <strong style="text-decoration: underline">Hoffman NG</strong>, and Yi HS. <strong>Rapid high-resolution mapping of balanced chromosomal rearrangements on tiling CGH arrays.</strong> <em>J Mol Diagn</em> 2011, 13:621-33. <a href="http://www.ncbi.nlm.nih.gov/pubmed/21907824">21907824</a></li>
-
-<li>Strathmann FG, Baird GS, and <strong style="text-decoration: underline">Hoffman NG</strong>. <strong>Simulations of delta check rule performance to detect specimen mislabeling using historical laboratory data.</strong> <em>Clin Chim Acta</em> 2011, 412:1973-7. <a href="http://www.ncbi.nlm.nih.gov/pubmed/21782806">21782806</a></li>
-
-<li>Pecha T, Sharma D, <strong style="text-decoration: underline">Hoffman NG</strong>, Sookplung P, Curry P, and Vavilala MS. <strong>Hyperglycemia during craniotomy for adult traumatic brain injury.</strong> <em>Anesth Analg</em> 2011, 113:336-42. <a href="http://www.ncbi.nlm.nih.gov/pubmed/21596888">21596888</a></li>
-
-<li><strong style="text-decoration: underline">Hoffman NG</strong>, Cook L, Atienza EE, Limaye AP, and Jerome KR. <strong>Marked variability of BK virus load measurement using quantitative real-time PCR among commonly used assays.</strong> <em>J Clin Microbiol</em> 2008, 46:2671-80. <a href="http://www.ncbi.nlm.nih.gov/pubmed/18562587">18562587</a></li>
-
-
+<ol><li>Whitney BM, Srinivasan S, Tapia K, Muriuki EM, Chohan BH, Wallis JM, Liu C, Guthrie BL, McClelland RS, <strong>Hoffman NG</strong>, Fredricks DN, and Roxby AC. Influence of intramuscular depot-medroxyprogesterone acetate initiation on vaginal microbiota in the postpartum period. <em>Clin Infect Dis.</em> 2020 Dec 23; <a href="https://pubmed.ncbi.nlm.nih.gov/33354707/">PMID 33354707</a></li>
+<li>Mitchell CM, Srinivasan S, Ma N, Reed SD, Wu MC, <strong>Hoffman NG</strong>, Valint DJ, Proll S, Fiedler TL, Agnew KJ, Guthrie KA, and Fredricks DN. Bacterial communities associated with abnormal Nugent score are different in pre- versus postmenopausal women. <em>J Infect Dis.</em> 2020 Oct 27; <a href="https://pubmed.ncbi.nlm.nih.gov/33107562/">PMID 33107562</a></li>
+<li>Rassoulian Barrett S, <strong>Hoffman NG</strong>, Rosenthal C, Bryan A, Marshall DA, Lieberman J, Greninger AL, Peddu V, Cookson BT, and Salipante SJ. Sensitive Identification of Bacterial DNA in Clinical Specimens by Broad-Range 16S rRNA Gene Enrichment. <em>J Clin Microbiol.</em> 2020 Nov 18;58(12) <a href="https://pubmed.ncbi.nlm.nih.gov/33028602/">PMID 33028602</a></li>
+<li>Srinivasan S, Chambers LC, Tapia KA, <strong>Hoffman NG</strong>, Munch MM, Morgan JL, Domogala D, Lowens MS, Proll S, Huang ML, Soge OO, Jerome KR, Golden MR, Hughes JP, Fredricks DN, and Manhart LE. Urethral microbiota in men: Association of Haemophilus influenzae and Mycoplasma penetrans with nongonococcal urethritis. <em>Clin Infect Dis.</em> 2020 Aug 5; <a href="https://pubmed.ncbi.nlm.nih.gov/32750107/">PMID 32750107</a></li>
+<li>Mani NS, Budak JZ, Lan KF, Bryson-Cahn C, Zelikoff A, Barker GEC, Grant CW, Hart K, Barbee CJ, Sandoval MD, Dostal CL, Corcorran M, Ungerleider HM, Gates JO, Olin SV, Bryan A, <strong>Hoffman NG</strong>, Marquis SR, Harvey ML, Nasenbeny K, Mertens K, Chew LD, Greninger AL, Jerome KR, Pottinger PS, Dellit TH, Liu C, Pergam SA, Neme S, Lynch JB, Kim HN, and Cohen SA. Prevalence of Coronavirus Disease 2019 Infection and Outcomes Among Symptomatic Healthcare Workers in Seattle, Washington. <em>Clin Infect Dis.</em> 2020 Dec 17;71(10):2702-2707 <a href="https://pubmed.ncbi.nlm.nih.gov/32548613/">PMID 32548613</a></li>
+<li>Krumm N and <strong>Hoffman N</strong>. Practical estimation of cloud storage costs for clinical genomic data. <em>Pract Lab Med.</em> 2020 Aug;21:e00168 <a href="https://pubmed.ncbi.nlm.nih.gov/32529017/">PMID 32529017</a></li>
+<li>Tettamanti Boshier FA, Srinivasan S, Lopez A, <strong>Hoffman NG</strong>, Proll S, Fredricks DN, and Schiffer JT. Complementing 16S rRNA Gene Amplicon Sequencing with Total Bacterial Load To Infer Absolute Species Concentrations in the Vaginal Microbiome. <em>mSystems.</em> 2020 Apr 7;5(2) <a href="https://pubmed.ncbi.nlm.nih.gov/32265316/">PMID 32265316</a></li>
+<li>Cummings LA, Hoogestraat DR, Rassoulian-Barrett SL, Rosenthal CA, Salipante SJ, Cookson BT, and <strong>Hoffman NG</strong>. Comprehensive evaluation of complex polymicrobial specimens using next generation sequencing and standard microbiological culture. <em>Sci Rep.</em> 2020 Mar 25;10(1):5446 <a href="https://pubmed.ncbi.nlm.nih.gov/32214207/">PMID 32214207</a></li>
+<li>McLean K, Rosenthal CA, Sengupta D, Owens J, Cookson BT, <strong>Hoffman NG</strong>, and Salipante SJ. Improved Species-Level Clinical Identification of Enterobacteriaceae through Broad-Range <i>dnaJ</i> PCR and Sequencing. <em>J Clin Microbiol.</em> 2019 Nov;57(11) <a href="https://pubmed.ncbi.nlm.nih.gov/31434720/">PMID 31434720</a></li>
+<li>Winston McPherson G, Long T, Salipante SJ, Rongitsch JA, <strong>Hoffman NG</strong>, Stephens K, Penewit K, and Greene DN. The Vaginal Microbiome of Transgender Men. <em>Clin Chem.</em> 2019 Jan;65(1):199-207 <a href="https://pubmed.ncbi.nlm.nih.gov/30602481/">PMID 30602481</a></li>
+<li>Mitchell CM, Srinivasan S, Plantinga A, Wu MC, Reed SD, Guthrie KA, LaCroix AZ, Fiedler T, Munch M, Liu C, <strong>Hoffman NG</strong>, Blair IA, Newton K, Freeman EW, Joffe H, Cohen L, and Fredricks DN. Associations between improvement in genitourinary symptoms of menopause and changes in the vaginal ecosystem. <em>Menopause.</em> 2018 May;25(5):500-507 <a href="https://pubmed.ncbi.nlm.nih.gov/29206774/">PMID 29206774</a></li>
+<li>Mitchell CM, Srinivasan S, Zhan X, Wu MC, Reed SD, Guthrie KA, LaCroix AZ, Fiedler T, Munch M, Liu C, <strong>Hoffman NG</strong>, Blair IA, Newton K, Freeman EW, Joffe H, Cohen L, and Fredricks DN. Vaginal microbiota and genitourinary menopausal symptoms: a cross-sectional analysis. <em>Menopause.</em> 2017 Oct;24(10):1160-1166 <a href="https://pubmed.ncbi.nlm.nih.gov/28640154/">PMID 28640154</a></li>
+<li>Golob JL, Margolis E, <strong>Hoffman NG</strong>, and Fredricks DN. Evaluating the accuracy of amplicon-based microbiome computational pipelines on simulated human gut microbial communities. <em>BMC Bioinformatics.</em> 2017 May 30;18(1):283 <a href="https://pubmed.ncbi.nlm.nih.gov/28558684/">PMID 28558684</a></li>
+<li>Cummings LA, Kurosawa K, Hoogestraat DR, SenGupta DJ, Candra F, Doyle M, Thielges S, Land TA, Rosenthal CA, <strong>Hoffman NG</strong>, Salipante SJ, and Cookson BT. Clinical Next Generation Sequencing Outperforms Standard Microbiological Culture for Characterizing Polymicrobial Samples. <em>Clin Chem.</em> 2016 Nov;62(11):1465-1473 <a href="https://pubmed.ncbi.nlm.nih.gov/27624135/">PMID 27624135</a></li>
+<li>Srinivasan S, Munch MM, Sizova MV, Fiedler TL, Kohler CM, <strong>Hoffman NG</strong>, Liu C, Agnew KJ, Marrazzo JM, Epstein SS, and Fredricks DN. More Easily Cultivated Than Identified: Classical Isolation With Molecular Identification of Vaginal Bacteria. <em>J Infect Dis.</em> 2016 Aug 15;214 Suppl 1:S21-8 <a href="https://pubmed.ncbi.nlm.nih.gov/27449870/">PMID 27449870</a></li>
+<li>Salipante SJ, Kawashima T, Rosenthal C, Hoogestraat DR, Cummings LA, Sengupta DJ, Harkins TT, Cookson BT, and <strong>Hoffman NG</strong>. Erratum for Salipante et al., Performance Comparison of Illumina and Ion Torrent Next-Generation Sequencing Platforms for 16S rRNA-Based Bacterial Community Profiling. <em>Appl Environ Microbiol.</em> 2016 Jul 15;82(14):4453 <a href="https://pubmed.ncbi.nlm.nih.gov/27364849/">PMID 27364849</a></li>
+<li>Mathias PC, Turner EH, Scroggins SM, Salipante SJ, <strong>Hoffman NG</strong>, Pritchard CC, and Shirts BH. Applying Ancestry and Sex Computation as a Quality Control Tool in Targeted Next-Generation Sequencing. <em>Am J Clin Pathol.</em> 2016 Mar;145(3):308-15 <a href="https://pubmed.ncbi.nlm.nih.gov/27124912/">PMID 27124912</a></li>
+<li>White AA, McKinney CM, <strong>Hoffman NG</strong>, and Sutton PR. Optimizing vitamin D naming conventions in computerized order entry to support high-value care. <em>J Am Med Inform Assoc.</em> 2017 Jan;24(1):172-175 <a href="https://pubmed.ncbi.nlm.nih.gov/27107453/">PMID 27107453</a></li>
+<li>Srinivasan S, Morgan MT, Fiedler TL, Djukovic D, <strong>Hoffman NG</strong>, Raftery D, Marrazzo JM, and Fredricks DN. Metabolic signatures of bacterial vaginosis. <em>mBio.</em> 2015 Apr 14;6(2) <a href="https://pubmed.ncbi.nlm.nih.gov/25873373/">PMID 25873373</a></li>
+<li>Salipante SJ, Kawashima T, Rosenthal C, Hoogestraat DR, Cummings LA, Sengupta DJ, Harkins TT, Cookson BT, and <strong>Hoffman NG</strong>. Performance comparison of Illumina and ion torrent next-generation sequencing platforms for 16S rRNA-based bacterial community profiling. <em>Appl Environ Microbiol.</em> 2014 Dec;80(24):7583-91 <a href="https://pubmed.ncbi.nlm.nih.gov/25261520/">PMID 25261520</a></li>
+<li>Salipante SJ, Hoogestraat DR, Abbott AN, SenGupta DJ, Cummings LA, Butler-Wu SM, Stephens K, Cookson BT, and <strong>Hoffman NG</strong>. Coinfection of Fusobacterium nucleatum and Actinomyces israelii in mastoiditis diagnosed by next-generation DNA sequencing. <em>J Clin Microbiol.</em> 2014 May;52(5):1789-92 <a href="https://pubmed.ncbi.nlm.nih.gov/24574281/">PMID 24574281</a></li>
+<li>Srinivasan S, Morgan MT, Liu C, Matsen FA, <strong>Hoffman NG</strong>, Fiedler TL, Agnew KJ, Marrazzo JM, and Fredricks DN. More than meets the eye: associations of vaginal bacteria with gram stain morphotypes using molecular phylogenetic analysis. <em>PLoS One.</em> 2013;8(10):e78633 <a href="https://pubmed.ncbi.nlm.nih.gov/24302980/">PMID 24302980</a></li>
+<li>Salipante SJ, Sengupta DJ, Hoogestraat DR, Cummings LA, Bryant BH, Natividad C, Thielges S, Monsaas PW, Chau M, Barbee LA, Rosenthal C, Cookson BT, and <strong>Hoffman NG</strong>. Molecular diagnosis of Actinomadura madurae infection by 16S rRNA deep sequencing. <em>J Clin Microbiol.</em> 2013 Dec;51(12):4262-5 <a href="https://pubmed.ncbi.nlm.nih.gov/24108607/">PMID 24108607</a></li>
+<li>Salipante SJ, Sengupta DJ, Rosenthal C, Costa G, Spangler J, Sims EH, Jacobs MA, Miller SI, Hoogestraat DR, Cookson BT, McCoy C, Matsen FA, Shendure J, Lee CC, Harkins TT, and <strong>Hoffman NG</strong>. Rapid 16S rRNA next-generation sequencing of polymicrobial clinical samples for diagnosis of complex bacterial infections. <em>PLoS One.</em> 2013;8(5):e65226 <a href="https://pubmed.ncbi.nlm.nih.gov/23734239/">PMID 23734239</a></li>
+<li>McCoy CO, Gallagher A, <strong>Hoffman NG</strong>, and Matsen FA. Nestly--a framework for running software with nested parameter choices and aggregating results. <em>Bioinformatics.</em> 2013 Feb 1;29(3):387-8 <a href="https://pubmed.ncbi.nlm.nih.gov/23220574/">PMID 23220574</a></li>
+<li>Ramaiah VK, Sharma D, Ma L, Prathep S, <strong>Hoffman NG</strong>, and Vavilala MS. Admission oxygenation and ventilation parameters associated with discharge survival in severe pediatric traumatic brain injury. <em>Childs Nerv Syst.</em> 2013 Apr;29(4):629-34 <a href="https://pubmed.ncbi.nlm.nih.gov/23207977/">PMID 23207977</a></li>
+<li>Dickerson JA, Schmeling M, Hoofnagle AN, and <strong>Hoffman NG</strong>. Design and implementation of software for automated quality control and data analysis for a complex LC/MS/MS assay for urine opiates and metabolites. <em>Clin Chim Acta.</em> 2013 Jan 16;415:290-4 <a href="https://pubmed.ncbi.nlm.nih.gov/23159299/">PMID 23159299</a></li>
+<li>Srinivasan S, <strong>Hoffman NG</strong>, Morgan MT, Matsen FA, Fiedler TL, Hall RW, Ross FJ, McCoy CO, Bumgarner R, Marrazzo JM, and Fredricks DN. Bacterial communities in women with bacterial vaginosis: high resolution phylogenetic analyses reveal relationships of microbiota to clinical criteria. <em>PLoS One.</em> 2012;7(6):e37818 <a href="https://pubmed.ncbi.nlm.nih.gov/22719852/">PMID 22719852</a></li>
+<li>Matsen FA, <strong>Hoffman NG</strong>, Gallagher A, and Stamatakis A. A format for phylogenetic placements. <em>PLoS One.</em> 2012;7(2):e31009 <a href="https://pubmed.ncbi.nlm.nih.gov/22383988/">PMID 22383988</a></li>
+<li>Greisman HA, <strong>Hoffman NG</strong>, and Yi HS. Rapid high-resolution mapping of balanced chromosomal rearrangements on tiling CGH arrays. <em>J Mol Diagn.</em> 2011 Nov;13(6):621-33 <a href="https://pubmed.ncbi.nlm.nih.gov/21907824/">PMID 21907824</a></li>
+<li>Strathmann FG, Baird GS, and <strong>Hoffman NG</strong>. Simulations of delta check rule performance to detect specimen mislabeling using historical laboratory data. <em>Clin Chim Acta.</em> 2011 Oct 9;412(21-22):1973-7 <a href="https://pubmed.ncbi.nlm.nih.gov/21782806/">PMID 21782806</a></li>
+<li>Pecha T, Sharma D, <strong>Hoffman NG</strong>, Sookplung P, Curry P, and Vavilala MS. Hyperglycemia during craniotomy for adult traumatic brain injury. <em>Anesth Analg.</em> 2011 Aug;113(2):336-42 <a href="https://pubmed.ncbi.nlm.nih.gov/21596888/">PMID 21596888</a></li>
+<li><strong>Hoffman NG</strong>, Cook L, Atienza EE, Limaye AP, and Jerome KR. Marked variability of BK virus load measurement using quantitative real-time PCR among commonly used assays. <em>J Clin Microbiol.</em> 2008 Aug;46(8):2671-80 <a href="https://pubmed.ncbi.nlm.nih.gov/18562587/">PMID 18562587</a></li>
+<li>Knies JL, Dang KK, Vision TJ, <strong>Hoffman NG</strong>, Swanstrom R, and Burch CL. Compensatory evolution in RNA secondary structures increases substitution rate variation among sites. <em>Mol Biol Evol.</em> 2008 Aug;25(8):1778-87 <a href="https://pubmed.ncbi.nlm.nih.gov/18535013/">PMID 18535013</a></li>
+<li>Patel MB, <strong>Hoffman NG</strong>, and Swanstrom R. Subtype-specific conformational differences within the V3 region of subtype B and subtype C human immunodeficiency virus type 1 Env proteins. <em>J Virol.</em> 2008 Jan;82(2):903-16 <a href="https://pubmed.ncbi.nlm.nih.gov/18003735/">PMID 18003735</a></li>
+<li><strong>Hoffman NG</strong> and Cookson BT. Case 8-2007: a man with chest pain followed by cardiac arrest. <em>N Engl J Med.</em> 2007 Jun 21;356(25):2652-3; author reply 2652-3 <a href="https://pubmed.ncbi.nlm.nih.gov/17582082/">PMID 17582082</a></li>
+<li>Henderson GJ, <strong>Hoffman NG</strong>, Ping LH, Fiscus SA, Hoffman IF, Kitrinos KM, Banda T, Martinson FE, Kazembe PN, Chilongozi DA, Cohen MS, and Swanstrom R. HIV-1 populations in blood and breast milk are similar. <em>Virology.</em> 2004 Dec 5;330(1):295-303 <a href="https://pubmed.ncbi.nlm.nih.gov/15527854/">PMID 15527854</a></li>
+<li>Ritola K, Pilcher CD, Fiscus SA, <strong>Hoffman NG</strong>, Nelson JA, Kitrinos KM, Hicks CB, Eron JJ Jr, and Swanstrom R. Multiple V1/V2 env variants are frequently present during primary infection with human immunodeficiency virus type 1. <em>J Virol.</em> 2004 Oct;78(20):11208-18 <a href="https://pubmed.ncbi.nlm.nih.gov/15452240/">PMID 15452240</a></li>
+<li>Brumme ZL, Dong WW, Yip B, Wynhoven B, <strong>Hoffman NG</strong>, Swanstrom R, Jensen MA, Mullins JI, Hogg RS, Montaner JS, and Harrigan PR. Clinical and immunological impact of HIV envelope V3 sequence variation after starting initial triple antiretroviral therapy. <em>AIDS.</em> 2004 Mar 5;18(4):F1-9 <a href="https://pubmed.ncbi.nlm.nih.gov/15090786/">PMID 15090786</a></li>
+<li><strong>Hoffman NG</strong>, Schiffer CA, and Swanstrom R. Covariation of amino acid positions in HIV-1 protease. <em>Virology.</em> 2003 Sep 30;314(2):536-48 <a href="https://pubmed.ncbi.nlm.nih.gov/14554082/">PMID 14554082</a></li>
+<li>Kitrinos KM, <strong>Hoffman NG</strong>, Nelson JA, and Swanstrom R. Turnover of env variable region 1 and 2 genotypes in subjects with late-stage human immunodeficiency virus type 1 infection. <em>J Virol.</em> 2003 Jun;77(12):6811-22 <a href="https://pubmed.ncbi.nlm.nih.gov/12768001/">PMID 12768001</a></li>
+<li><strong>Hoffman NG</strong>, Seillier-Moiseiwitsch F, Ahn J, Walker JM, and Swanstrom R. Variability in the human immunodeficiency virus type 1 gp120 Env protein linked to phenotype-associated changes in the V3 loop. <em>J Virol.</em> 2002 Apr;76(8):3852-64 <a href="https://pubmed.ncbi.nlm.nih.gov/11907225/">PMID 11907225</a></li>
+<li>Resch W, <strong>Hoffman N</strong>, and Swanstrom R. Improved success of phenotype prediction of the human immunodeficiency virus type 1 from envelope variable loop 3 sequence using neural networks. <em>Virology.</em> 2001 Sep 15;288(1):51-62 <a href="https://pubmed.ncbi.nlm.nih.gov/11543657/">PMID 11543657</a></li>
+<li>McGrath KM, <strong>Hoffman NG</strong>, Resch W, Nelson JA, and Swanstrom R. Using HIV-1 sequence variability to explore virus biology. <em>Virus Res.</em> 2001 Aug;76(2):137-60 <a href="https://pubmed.ncbi.nlm.nih.gov/11410314/">PMID 11410314</a></li>
+<li>Kurakin A, <strong>Hoffman NG</strong>, and Kay BK. Molecular recognition properties of the C-terminal Sh3 domain of the Cbl associated protein, Cap. <em>J Pept Res.</em> 1998 Nov;52(5):331-7 <a href="https://pubmed.ncbi.nlm.nih.gov/9894838/">PMID 9894838</a></li>
+<li>Yamabhai M, <strong>Hoffman NG</strong>, Hardison NL, McPherson PS, Castagnoli L, Cesareni G, and Kay BK. Intersectin, a novel adaptor protein with two Eps15 homology and five Src homology 3 domains. <em>J Biol Chem.</em> 1998 Nov 20;273(47):31401-7 <a href="https://pubmed.ncbi.nlm.nih.gov/9813051/">PMID 9813051</a></li>
+<li>Ribon V, Printen JA, <strong>Hoffman NG</strong>, Kay BK, and Saltiel AR. A novel, multifuntional c-Cbl binding protein in insulin receptor signaling in 3T3-L1 adipocytes. <em>Mol Cell Biol.</em> 1998 Feb;18(2):872-9 <a href="https://pubmed.ncbi.nlm.nih.gov/9447983/">PMID 9447983</a></li>
+<li><strong>Hoffman NG</strong>, Sparks AB, Carter JM, and Kay BK. Binding properties of SH3 peptide ligands identified from phage-displayed random peptide libraries. <em>Mol Divers.</em> 1996 Oct;2(1-2):5-12 <a href="https://pubmed.ncbi.nlm.nih.gov/9238627/">PMID 9238627</a></li>
+<li>Sparks AB, <strong>Hoffman NG</strong>, McConnell SJ, Fowlkes DM, and Kay BK. Cloning of ligand targets: systematic isolation of SH3 domain-containing proteins. <em>Nat Biotechnol.</em> 1996 Jun;14(6):741-4 <a href="https://pubmed.ncbi.nlm.nih.gov/9630982/">PMID 9630982</a></li>
+<li>Sparks AB, Rider JE, <strong>Hoffman NG</strong>, Fowlkes DM, Quillam LA, and Kay BK. Distinct ligand preferences of Src homology 3 domains from Src, Yes, Abl, Cortactin, p53bp2, PLCgamma, Crk, and Grb2. <em>Proc Natl Acad Sci U S A.</em> 1996 Feb 20;93(4):1540-4 <a href="https://pubmed.ncbi.nlm.nih.gov/8643668/">PMID 8643668</a></li>
 </ol>
