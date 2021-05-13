@@ -101,10 +101,7 @@ def fmt_article(data):
 
     return (
         '<li>'
-        '{authors}. '
-        '{Title} '
-        '<em>{Source}.</em> '
-        '{SO} '
+        '{authors}. {Title} <em>{Source}.</em> {SO} '
         '<a href="https://pubmed.ncbi.nlm.nih.gov/{Id}/">PMID {Id}</a>'
         '</li>\n'
     ).format(**data)
@@ -135,7 +132,7 @@ def main(arguments):
     for doc in ET.fromstring(xmltext):
         article = get_article(get_tree(doc))
         html = fmt_article(article)
-        html = re.sub(r'(Hoffman NG|Hoffman N)', emphasize, html)
+        html = re.sub(r'Hoffman NG?', emphasize, html)
         args.outfile.write(html)
     args.outfile.write('</ol>')
 
