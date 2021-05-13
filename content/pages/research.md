@@ -1,27 +1,26 @@
 Title: Academic and Clinical Activities
 page-order: 01
 
-Noah G. Hoffman, MD, PhD is an Associate Professor and Head of the
-Informatics Division of the Department of Laboratory Medicine and
-Pathology (DLMP) at the University of Washington in Seattle, WA. In
-this role he directs the staff responsible for maintaining the
-Laboratory Information System and physical computing infrastructure
-for the department. Dr. Hoffman also plays a direct role in the custom
-development of software and infrastructure supporting many facets of
-laboratory operations, data management, and clinical assays.
+Noah Hoffman, MD, PhD is an Associate Professor at the University of
+Washington and Head of the Informatics Division in the Department of
+Laboratory Medicine and Pathology. He also serves as the Specialty
+CMIO for Lab and Pathology services for UW Medicine. Dr. Hoffman has
+interests in software development to meet the operational and
+analytical needs of the clinical laboratory; laboratory data
+analytics; bioinformatics; and process improvement. As the Co-director
+of the NGS Analytics Laboratory, Dr. Hoffman helps to supervise the
+development of analytical pipelines and scientific computing
+infrastructure supporting clinical assays with data intensive or
+computational components. His research interests include the
+development and application of bioinformatic tools to perform nucleic
+acid sequence-based identification of microbiota in both basic
+research and clinical settings, including studies of the human
+microbiome.
 
-Dr. Hoffman's primary research interest is in the development and
-application of bioinformatic tools to perform nucleic acid
-sequence-based identification of microbiota in both basic research and
-clinical settings. He is also co-director of the DLMP NGS Analytics
-Laboratory: in this role, he supervises and advises on the development
-of bioinformatics pipelines and scientific computing infrastructure
-supporting clinical assays.
-
-Dr. Hoffman completed his MD and PhD in Microbiology and Immunology at
-the University of North Carolina, Chapel Hill in 2005, and completed
-residency training in Clinical Pathology at the University of
-Washington in 2008, where he has since remained in faculty roles.
+Dr. Hoffman received his undergraduate, MD, and PhD degrees from the
+University of North Carolina at Chapel Hill, where he studied HIV
+evolution. He performed his residency training in Clinical Pathology
+at the University of Washington.
 
 # Publications
 
