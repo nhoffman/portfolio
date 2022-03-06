@@ -1,28 +1,5 @@
-Title: Academic and Clinical Activities
+Title: Publications
 page-order: 01
-
-Noah Hoffman, MD, PhD is an Associate Professor at the University of
-Washington and Head of the Informatics Division in the Department of
-Laboratory Medicine and Pathology. He also serves as the Specialty
-CMIO for Lab and Pathology services for UW Medicine. Dr. Hoffman has
-interests in software development to meet the operational and
-analytical needs of the clinical laboratory; laboratory data
-analytics; bioinformatics; and process improvement. As the Co-director
-of the NGS Analytics Laboratory, Dr. Hoffman helps to supervise the
-development of analytical pipelines and scientific computing
-infrastructure supporting clinical assays with data intensive or
-computational components. His research interests include the
-development and application of bioinformatic tools to perform nucleic
-acid sequence-based identification of microbiota in both basic
-research and clinical settings, including studies of the human
-microbiome.
-
-Dr. Hoffman received his undergraduate, MD, and PhD degrees from the
-University of North Carolina at Chapel Hill, where he studied HIV
-evolution. He performed his residency training in Clinical Pathology
-at the University of Washington.
-
-# Publications
 
 <ol><li>Whitney BM, Srinivasan S, Tapia K, Muriuki EM, Chohan BH, Wallis JM, Liu C, Guthrie BL, McClelland RS, <strong>Hoffman NG</strong>, Fredricks DN, and Roxby AC. Influence of intramuscular depot-medroxyprogesterone acetate initiation on vaginal microbiota in the postpartum period. <em>Clin Infect Dis.</em> 2020 Dec 23; <a href="https://pubmed.ncbi.nlm.nih.gov/33354707/">PMID 33354707</a></li>
 <li>Mitchell CM, Srinivasan S, Ma N, Reed SD, Wu MC, <strong>Hoffman NG</strong>, Valint DJ, Proll S, Fiedler TL, Agnew KJ, Guthrie KA, and Fredricks DN. Bacterial communities associated with abnormal Nugent score are different in pre- versus postmenopausal women. <em>J Infect Dis.</em> 2020 Oct 27; <a href="https://pubmed.ncbi.nlm.nih.gov/33107562/">PMID 33107562</a></li>
