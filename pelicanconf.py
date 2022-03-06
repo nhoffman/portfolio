@@ -9,6 +9,7 @@ config = DEFAULT_CONFIG.copy()
 AUTHOR = 'Noah Hoffman'
 SITENAME = 'Noah Hoffman, MD, PhD'
 SITEURL = 'https://faculty.washington.edu/ngh2/home'
+SITELOGO = SITEURL + '/images/noah-hoffman.jpg'
 
 PATH = 'content'
 
@@ -30,7 +31,7 @@ LINKS = (
     ('borborygmi (blog)', 'https://nhoffman.github.io/borborygmi/'),
 )
 
-GITHUB_CORNER_URL = 'https://github.com/nhoffman/portfolio'
+GITHUB_CORNER_URL = 'https://github.com/nhoffman'
 
 # Social widget
 # SOCIAL = (('You can add links in your config file', '#'),
@@ -52,9 +53,6 @@ MARKDOWN = {
     'output_format': 'html5',
 }
 
-# Uncomment following line if you want document-relative URLs when developing
-# RELATIVE_URLS = True
-
 THEME = "./Flex"
 # does nothing?
 # THEME_COLOR = 'light'
@@ -67,6 +65,9 @@ IGNORE_FILES = ['.#*', 'includes', 'templates', 'README.md']
 # place files replacing theme templates in ./content/templates
 THEME_TEMPLATES_OVERRIDES = ['./content/templates']
 DIRECT_TEMPLATES = (('index',))
+
+# copied to /output without modification
+STATIC_PATHS = ['images', 'css']
 
 # render markdown contents from files in /content/includes and make
 # accesible from INCLUDES variable in html templates
