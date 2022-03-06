@@ -12,6 +12,7 @@ from urllib.parse import urlencode
 import xml.etree.ElementTree as ET
 from datetime import datetime
 import re
+from operator import itemgetter
 
 
 def search_pubmed(query):
@@ -22,7 +23,7 @@ def search_pubmed(query):
         'usehistory': 'y',
         'term': query,
         'retmode': 'json',
-        'retmax': 0
+        'retmax': 0,
     }
     qstr = url + urlencode(data)
     with urlopen(qstr) as response:
@@ -38,7 +39,7 @@ def get_pubmed(webenv):
         'webenv': webenv,
         'query_key': 1,
         'retmode': 'xml',
-        'retmax': 0
+        'retmax': 0,
     }
 
     qstr = url + urlencode(data)
@@ -101,7 +102,9 @@ def fmt_article(data):
 
     return (
         '<li>'
-        '{authors}. {Title} <em>{Source}.</em> {SO} '
+        '{authors}.<br>'
+        '<strong>{Title}</strong><br>'
+        '<em>{Source}.</em> {SO} '
         '<a href="https://pubmed.ncbi.nlm.nih.gov/{Id}/">PMID {Id}</a>'
         '</li>\n'
     ).format(**data)
@@ -109,7 +112,8 @@ def fmt_article(data):
 
 def emphasize(mo):
     if mo.group(0):
-        return '<strong>' + mo.group(0) + '</strong>'
+        # return '<strong>' + mo.group(0) + '</strong>'
+        return '<u>' + mo.group(0) + '</u>'
 
 
 def main(arguments):
@@ -127,10 +131,22 @@ def main(arguments):
 
     search_result = search_pubmed(query)
     xmltext = get_pubmed(search_result['esearchresult']['webenv'])
-
-    args.outfile.write('<ol>')
+    articles = []
     for doc in ET.fromstring(xmltext):
         article = get_article(get_tree(doc))
+
+        pubdate = article['PubDate']
+        if isinstance(pubdate, str):
+            article['ord'] = (-1 * int(pubdate.split()[0]), article['Title'])
+        else:
+            article['ord'] = (-1 * int(pubdate.strftime('%Y')), article['Title'])
+
+        articles.append(article)
+
+    args.outfile.write('Title: Publications\n')
+    args.outfile.write('page-order: 01\n\n')
+    args.outfile.write('<ol>')
+    for article in sorted(articles, key=itemgetter('ord')):
         html = fmt_article(article)
         html = re.sub(r'Hoffman NG?', emphasize, html)
         args.outfile.write(html)
