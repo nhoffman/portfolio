@@ -11,6 +11,14 @@ Set up the environment::
   pip install -U pip wheel
   pip install -r requirements.txt
 
+Update publications::
+
+  bin/get_refs.py -o content/pages/publications.md
+
+Launch local server and restart with each page change (requires fswatch)::
+
+  bin/watch.sh
+
 Build::
 
   make html
