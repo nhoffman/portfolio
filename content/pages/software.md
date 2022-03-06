@@ -69,6 +69,12 @@ read match identity and quality score.
 [![pypi](https://img.shields.io/pypi/v/barcodecop.svg)](https://pypi.python.org/pypi/barcodecop)
 [![Build Status](https://travis-ci.org/nhoffman/barcodecop.svg?branch=master)](https://travis-ci.org/nhoffman/barcodecop)
 
+## dada2-nf
+
+The [dada2](https://benjjneb.github.io/dada2/) R package ("DADA2: Fast and accurate sample inference from amplicon data with single-nucleotide resolution") by Benjamin Callahan and colleagues has been an incredible boon to researchers studying the microbiome using amplicon-based sequencing. The R community has a very strong culture of interactive computing, which has is merits, but the absence of command-line oriented tools can create challenges when incorporating into a pipeline with additional components. The dada2-nf project wraps dada2 in a [nextflow](https://www.nextflow.io) pipeline (using either Docker or Singularity) and provides some additional conveniences. This project provides a mechanism for using dada2 in both clinical and research pipelines.
+
+[![GitHub](../images/gh.svg)](https://github.com/nhoffman/dada2-nf)
+
 # Bioinformatics and reproducible research
 
 ## bioscons
@@ -120,9 +126,7 @@ Formats multiple alignments in plain text, pdf, and html formats, for example:
 
 # Tools and applications for the clinical laboratory
 
-Most of the applications that I write for the clinical laboratory are
-for internal use. There are a few that I have been able to publish
-that may be of general interest.
+Most of the applications that I write for the clinical laboratory are for internal use. Web applications are typically implemented using Python, Flask, and Postgresql (old school, I know). My role has often been to design and provide the initial implementation of each application, and then partner with departmental software engineers for ongoing development and maintenance. There are a few that I have been able to publish that may be of general interest.
 
 ## Laboratory Test Guide
 
@@ -133,12 +137,9 @@ University of Washington Department of Laboratory Medicine.
 
 ## Pending Log Monitor
 
-I designed and wrote most of the code for a web application (known as
-the "Pending Log Monitor" or PLM) that displays the status of pending
-orders for lab tests. I described this application in a
-[presentation](../images/hoffman-api2017.pptx) at the 2017 Pathology
-Informatics Summit (annual meeting of the Association for Pathology
-Informatics). Here's the abstract for that presentation:
+I designed a web application (known as the "Pending Log Monitor" or PLM) that displays the status of pending orders for lab tests. This application provides a highly extensible framework for displaying pending orders in near real time, and is now used in dozens of locations throughout the clinical laboratory (thanks to the ongoing efforts of Tom E.).
+
+I described this application in a [presentation](../images/hoffman-api2017.pptx) at the 2017 Pathology Informatics Summit (annual meeting of the Association for Pathology Informatics). Here's the abstract for that presentation:
 
 > Many laboratory information systems (LIS) do not provide real-time
 notification of new orders, relying instead on batched, asynchronous
@@ -192,21 +193,23 @@ a commercial product in 2016.
 
 ## Opiates
 
-Automated QA for a clinical LC/MS urine opaites assay.
+Automated QA for a clinical LC/MS urine opaites assay. This project was initiated to address the complexity of the calculations required for our [Urine Opioid Confirmatory assay by LC/MS](https://testguide.labmed.uw.edu/UOPIAC), and was described in the following publication:
 
-Published as Dickerson JA, Schmeling M, Hoofnagle AN, and Hoffman
+Dickerson JA, Schmeling M, Hoofnagle AN, and Hoffman
 NG. **Design and implementation of software for automated quality
 control and data analysis for a complex LC/MS/MS assay for urine
 opiates and metabolites.** Clin Chim Acta. 2012 Nov 15. PubMed:
 [23159299](http://www.ncbi.nlm.nih.gov/pubmed/23159299)
 
+The code accompanying the publication is available on GitHub.
+
+Much more recently, I designed and implemented the foundation for a Flask-based web application to support laboratory workflows, perform calculations (replacing the original command line interface), and support clinical signout. This was ultimately extended to report results directly into the lab information system via a middleware application.
+
 [![GitHub](../images/gh.svg)](https://github.com/nhoffman/opiates)
 
 ## moin-labmanual
 
-A plugin for using the MoinMoin wiki as a CMS for document control in
-the clinical laboratory. Our department has many hundreds of policies
-and procedures managed as MoinMoin wiki pages. Go open source!
+A plugin for using the MoinMoin wiki as a CMS for document control in the clinical laboratory. Our department has (or had) many hundreds of policies and procedures managed as MoinMoin wiki pages. Unfortunately, the MoinMoin project has stalled in its development and support for Python 3 has been a [long time coming](http://moinmo.in/MoinMoin2.0), so we have had to move much of our documentation to other platforms.
 
 [![GitHub](../images/gh.svg)](https://github.com/nhoffman/moin-labmanual)
 
@@ -251,12 +254,9 @@ publishing notes and lectures.
 
 ## My .emacs.d
 
-I'm pretty happy with my emacs config, and have gotten a number of
-people started with emacs using this. It's written as an org-mode file
-that can be exported to html and
-[published](http://nhoffman.github.io/.emacs.d/).
+I'm pretty happy with my emacs config, and have gotten a number of people started with emacs using this. My [first iteration](https://github.com/nhoffman/.emacs.d) was written as an org-mode file that could be exported to html or tangled into an elisp file. More recently, I've simplified my approach and use a [more conventional setup](https://github.com/nhoffman/emacs-config).
 
-[![GitHub](../images/gh.svg)](https://github.com/nhoffman/.emacs.d)
+[![GitHub](../images/gh.svg)](https://github.com/nhoffman/emacs-config)
 
 ## argparse-bash
 
