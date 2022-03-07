@@ -111,8 +111,7 @@ utility for compiling ``org-mode`` documents non-interactively, and has
 the option of styling html documents with bootstrap.
 
 [![GitHub](../images/gh.svg)](https://github.com/nhoffman/org-export)
-[![Build Status](https://travis-ci.org/nhoffman/org-export.svg?branch=master)](https://travis-ci.org/nhoffman/org-export)
-
+[![Build Status](https://github.com/nhoffman/org-export/actions/workflows/test.yml/badge.svg?branch=master)](https://github.com/nhoffman/org-export/actions/workflows/test.yml)
 
 ## alnvu
 
