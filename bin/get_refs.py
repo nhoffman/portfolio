@@ -13,6 +13,8 @@ import xml.etree.ElementTree as ET
 from datetime import datetime
 import re
 from operator import itemgetter
+from functools import partial
+from textwrap import dedent
 
 
 def search_pubmed(query):
@@ -88,6 +90,15 @@ def get_article(tree):
 
     data['authors'] = fmt_authors(data['AuthorList'])
 
+    pubdate = data['PubDate']
+    if isinstance(pubdate, str):
+        year = int(pubdate.split()[0])
+    else:
+        year = int(pubdate.strftime('%Y'))
+
+    data['year'] = year
+    data['ord'] = (-1 * year, data['Title'])
+
     return data
 
 
@@ -98,9 +109,15 @@ def fmt_authors(authors):
         return ' and '.join(authors)
 
 
-def fmt_article(data):
+def html_underline(mo):
+    if mo.group(0):
+        # return '<strong>' + mo.group(0) + '</strong>'
+        return '<u>' + mo.group(0) + '</u>'
 
-    return (
+
+def fmt_portfolio(data, author_rexp=None):
+
+    result = (
         '<li>'
         '{authors}.<br>'
         '<strong>{Title}</strong><br>'
@@ -109,11 +126,26 @@ def fmt_article(data):
         '</li>\n'
     ).format(**data)
 
+    if author_rexp:
+        result = re.sub(author_rexp, html_underline, result)
 
-def emphasize(mo):
+    return result
+
+
+def latex_underline(mo):
     if mo.group(0):
-        # return '<strong>' + mo.group(0) + '</strong>'
-        return '<u>' + mo.group(0) + '</u>'
+        return r'\uline{%s}' % mo.group(0)
+
+
+def fmt_cv(data, author_rexp=None):
+    result = dedent(r"""
+    \refitem{%(authors)s}{%(Title)s}{%(Source)s}{%(SO)s}{PMID %(Id)s}
+    """) % data
+
+    if author_rexp:
+        result = re.sub(author_rexp, latex_underline, result)
+
+    return result
 
 
 def main(arguments):
@@ -121,6 +153,8 @@ def main(arguments):
     parser = argparse.ArgumentParser(
         description=__doc__,
         formatter_class=argparse.RawDescriptionHelpFormatter)
+    parser.add_argument('-f', '--format', choices=['portfolio', 'cv'],
+                        default='portfolio', help='[%(default)s]')
     parser.add_argument('-o', '--outfile', help="Output file",
                         default=sys.stdout, type=argparse.FileType('w'))
 
@@ -134,23 +168,29 @@ def main(arguments):
     articles = []
     for doc in ET.fromstring(xmltext):
         article = get_article(get_tree(doc))
-
-        pubdate = article['PubDate']
-        if isinstance(pubdate, str):
-            article['ord'] = (-1 * int(pubdate.split()[0]), article['Title'])
-        else:
-            article['ord'] = (-1 * int(pubdate.strftime('%Y')), article['Title'])
-
         articles.append(article)
 
-    args.outfile.write('Title: Publications\n')
-    args.outfile.write('page-order: 01\n\n')
-    args.outfile.write('<ol>')
-    for article in sorted(articles, key=itemgetter('ord')):
-        html = fmt_article(article)
-        html = re.sub(r'Hoffman NG?', emphasize, html)
-        args.outfile.write(html)
-    args.outfile.write('</ol>')
+    articles.sort(key=itemgetter('ord'))
+
+    author_rexp = r'Hoffman NG?'
+    pre, post = '', ''
+    if args.format == 'portfolio':
+        formatter = partial(fmt_portfolio, author_rexp=author_rexp)
+        pre = dedent("""
+        Title: Publications
+        page-order: 01
+
+        <ol>
+        """).lstrip()
+
+        post = '\n</ol>'
+    elif args.format == 'cv':
+        formatter = partial(fmt_cv, author_rexp=author_rexp)
+
+    args.outfile.write(pre)
+    for article in articles:
+        args.outfile.write(formatter(article))
+    args.outfile.write(post)
 
 
 if __name__ == '__main__':
