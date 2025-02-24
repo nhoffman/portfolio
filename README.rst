@@ -4,12 +4,15 @@
 
 Source code for https://faculty.washington.edu/ngh2
 
+Populate the Flex submodule after cloning::
+
+  git submodule update
+
 Set up the environment::
 
-  python3 -m venv py3-env
-  source py3-env/bin/activate
-  pip install -U pip wheel
-  pip install -r requirements.txt
+  uv venv
+  source .venv/bin/activate
+  uv pip install -r requirements.txt
 
 Update publications::
 
