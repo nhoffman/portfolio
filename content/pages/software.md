@@ -37,7 +37,6 @@ for the full list of contributors.
 
 [![GitHub](../images/gh.svg)](https://github.com/fhcrc/taxtastic)
 [![pypi](https://img.shields.io/pypi/v/taxtastic.svg)](https://pypi.python.org/pypi/taxtastic)
-[![Build Status](https://travis-ci.org/fhcrc/taxtastic.svg?branch=master)](https://travis-ci.org/fhcrc/taxtastic)
 
 ## DeeNuRP
 
@@ -47,7 +46,6 @@ reference set creation. I've contributed most significantly to
 sequence records by identifying outliers based on sequence identity.
 
 [![GitHub](../images/gh.svg)](https://github.com/fhcrc/deenurp)
-[![Build Status](https://travis-ci.org/fhcrc/deenurp.svg?branch=master)](https://travis-ci.org/fhcrc/deenurp)
 
 ## Yet another 16S rRNA database (ya16sdb)
 
@@ -67,7 +65,6 @@ read match identity and quality score.
 
 [![GitHub](../images/gh.svg)](https://github.com/nhoffman/barcodecop)
 [![pypi](https://img.shields.io/pypi/v/barcodecop.svg)](https://pypi.python.org/pypi/barcodecop)
-[![Build Status](https://travis-ci.org/nhoffman/barcodecop.svg?branch=master)](https://travis-ci.org/nhoffman/barcodecop)
 
 ## dada2-nf
 
@@ -92,7 +89,6 @@ dispatch with slurm) provided by ``bioscons``.
 
 [![GitHub](../images/gh.svg)](https://github.com/nhoffman/bioscons)
 [![pypi](https://img.shields.io/pypi/v/bioscons.svg)](https://pypi.python.org/pypi/bioscons)
-[![Build Status](https://travis-ci.org/nhoffman/bioscons.svg?branch=master)](https://travis-ci.org/nhoffman/bioscons)
 
 ## fastalite
 
@@ -100,7 +96,6 @@ This "simplest possible fasta parser" finds its way into most of my projects.
 
 [![GitHub](../images/gh.svg)](https://github.com/nhoffman/fastalite)
 [![pypi](https://img.shields.io/pypi/v/fastalite.svg)](https://pypi.python.org/pypi/fastalite)
-[![Build Status](https://travis-ci.org/nhoffman/fastalite.svg?branch=master)](https://travis-ci.org/nhoffman/fastalite)
 
 ## org-export
 
@@ -121,7 +116,6 @@ Formats multiple alignments in plain text, pdf, and html formats, for example:
 
 [![GitHub](../images/gh.svg)](https://github.com/nhoffman/alnvu)
 [![pypi](https://img.shields.io/pypi/v/alnvu.svg)](https://pypi.python.org/pypi/alnvu)
-[![Build Status](https://travis-ci.org/nhoffman/alnvu.svg?branch=master)](https://travis-ci.org/nhoffman/alnvu)
 
 # Tools and applications for the clinical laboratory
 
@@ -264,5 +258,5 @@ Let's use Python's
 [argparse](https://docs.python.org/3/library/argparse.html) instead!
 
 [![GitHub](../images/gh.svg)](https://github.com/nhoffman/argparse-bash)
-[![Build Status](https://travis-ci.org/nhoffman/argparse-bash.svg?branch=master)](https://travis-ci.org/nhoffman/argparse-bash)
+
 
