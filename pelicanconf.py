@@ -26,6 +26,7 @@ AUTHOR_FEED_RSS = None
 
 # Blogroll
 LINKS = (
+    ('---', '#'),
     ('DLMP Bio', 'https://dlmp.uw.edu/faculty/hoffman'),
     ('UW Medicine Bio', 'http://www.uwmedicine.org/bios/noah-hoffman'),
     ('borborygmi (blog)', 'https://nhoffman.github.io/borborygmi/'),
