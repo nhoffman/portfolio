@@ -77,7 +77,15 @@ href="https://pubmed.ncbi.nlm.nih.gov/41677051/">PMID 41677051</a>.
 
 # Tools and applications for the clinical laboratory
 
-Most of the applications that I write for the clinical laboratory are for internal use. Web applications are typically implemented using Python, Flask, and Postgresql (old school, I know). My role has often been to design and provide the initial implementation of each application, and then partner with departmental software engineers for ongoing development and maintenance. There are a few that I have been able to publish that may be of general interest.
+Most of the applications that I write for the clinical laboratory are
+for internal use. Web applications are typically implemented using
+Python, Flask, and Postgresql (old school, I know). My role has
+sometimes been to design and provide the initial implementation of an
+application, and then partner with departmental software engineers for
+ongoing development and maintenance; in many cases I remain the
+primary author and maintainer. Most of these projects are maintained
+using our internal version control system; there are a few code bases
+that I have been able to publish (indicated with GitHub icons).
 
 ## Laboratory Test Guide
 
