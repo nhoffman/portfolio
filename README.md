@@ -8,6 +8,7 @@ Source code for https://faculty.washington.edu/ngh2
 
 After cloning, populate the Flex submodule:
 ```bash
+git submodukle init
 git submodule update
 ```
 

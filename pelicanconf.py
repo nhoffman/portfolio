@@ -68,7 +68,7 @@ THEME_TEMPLATES_OVERRIDES = ['./content/templates']
 DIRECT_TEMPLATES = (('index',))
 
 # copied to /output without modification
-STATIC_PATHS = ['images', 'css']
+STATIC_PATHS = ['images', 'css', 'files']
 
 # render markdown contents from files in /content/includes and make
 # accesible from INCLUDES variable in html templates

@@ -17,6 +17,8 @@
 pelican --listen &
 listener="$!"
 
+make html PELICANOPTS='-e RELATIVE_URLS=true'
+
 fswatch -e output -e '.#' -e .git -l 0.5 -o . | \
     xargs -n 1 -I {} make html PELICANOPTS='-e RELATIVE_URLS=true'
 
