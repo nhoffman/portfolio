@@ -50,7 +50,11 @@ Developed in partnership with Nik Krumm.
 
 A system for searching and interrogating laboratory policies and
 procedures using Retrieval Augmented Generation (RAG). Uses postgresql
-with pgvector to implement hybrid search.
+with pgvector to implement hybrid search. The application is still a
+work in progress, but serves as an excellent test bed for
+experimenting with document processing, search, and LLM integration.
+
+![Docsearch screenshot](../images/docsearch.jpg)
 
 ## Toolbuilder
 
