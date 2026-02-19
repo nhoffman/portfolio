@@ -31,10 +31,8 @@ access only) provides secure,
 access to OpenAI GPT-series models for all UW Medicine users. As of
 early 2026, the Chat App is the only approved, generally-available
 environment for using LLMs with PHI and other sensitive data (see the
-[list of approved resources](https://vitals.uwmedicine.org/site/18e5cedf-89ff-435c-a172-24d47f4da540/page/1c3f1da7-bbb1-4a28-9e04-64c844e13cf3) on UW Medicine Vitals). Also see
-[these](https://vitals.uwmedicine.org/site/18e5cedf-89ff-435c-a172-24d47f4da540/page/1c3f1da7-bbb1-4a28-9e04-64c844e13cf3)
-[pages](https://vitals.uwmedicine.org/site/18e5cedf-89ff-435c-a172-24d47f4da540/page/bfeec1a5-1f8f-42bf-a09b-2d39377d9388)
-on Vitals for additional communication to UW Medicine users. Developed in partnership with Nik Krumm.
+[list of approved resources](https://vitals.uwmedicine.org/site/18e5cedf-89ff-435c-a172-24d47f4da540/page/1c3f1da7-bbb1-4a28-9e04-64c844e13cf3) on UW Medicine Vitals). Also see [these](https://vitals.uwmedicine.org/site/18e5cedf-89ff-435c-a172-24d47f4da540/page/bfeec1a5-1f8f-42bf-a09b-2d39377d9388)
+[pages](https://vitals.uwmedicine.org/site/18e5cedf-89ff-435c-a172-24d47f4da540/page/74333e54-208c-44b8-8f1c-9d23f4f03a0f) on Vitals (UW Medicine access only) for additional communication to UW Medicine users. Developed in partnership with Nik Krumm.
 
 ## DLMP Chatbot
 
