@@ -211,6 +211,28 @@ application). Groups are then synchronized to multiple domains so that
 they can be used as the basis for authorization for a wide variety of
 applications.
 
+## Checkpoint
+
+Tracking the flow of specimens throughout the laboratory is critical
+for lab operations (a specimen must be located to be used for testing)
+and quality assurance (to avoid specimen loss and delays in testing).
+At the end of 2025, our chemistry automation lines were taken offline
+for replacement. These automation lines automatically updated the
+location of a specimen in the LIS and tracked its movement from
+processing to chemistry; after the lines were down, it was no longer
+possible to use the lab system to determine whether a specimen was in
+processing or chemistry until the first test was performed.
+
+To restore this specimen tracking functionality, I developed the
+"checkpoint" application, and worked with one of our developers (Jim
+J.) to use an API to update specimen locations in the LIS. As of early
+2026, the checkpoint application is being used to document the
+movement of every specimen passing from processing to chemistry. This
+application will play a key role in tracking specimens within the new
+central laboratory in Renton.
+
+![Checkpoint screenshot](../images/checkpoint-screenshot.jpg)
+
 ## COVID-19 Infrastructure
 
 The years of the COVID-19 pandemic were a time of intense software
